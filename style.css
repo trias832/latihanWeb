@@ -1,0 +1,210 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#landing{
+
+    background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
+    height: 100vh;
+    background-size: cover;
+    /* text-align: center; */
+    background-attachment: fixed;
+    position: relative;
+/* line-height: 800px; //samakan ukuranya dengan tinggi box_agan */
+
+} 
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.selamat{
+color: white;
+
+position: absolute;
+margin: 0;
+top: 45%;
+text-align: center;
+width: 100%;
+}
+ul{
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin:0;
+    background-color: black;
+}
+.icon.desktop{
+    float: left;
+    margin-top: -5px;
+    
+    
+}
+.icon{
+    color: white;
+}
+li{
+    font-size: 16px;
+    padding: 15px 25px;
+    display: inline-block;
+    
+}
+.lnav{
+    text-decoration: none;
+    color: white;
+
+}
+.contact-icon{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.icon-desk {
+    width:30px;
+    height:30px;
+    border-radius: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.about-prof{
+    height: 88px;
+    width: 88px;
+    text-align: center;
+    
+}
+#about{
+    margin-top: 40px;
+   
+}
+.intro, .pengalaman, .skill{
+    text-align: center;
+    
+}
+.pengalaman, .skill{
+    display: inline-block;
+    margin-top: 2em;
+    width: 49.5%;
+}
+.introduc{
+    text-align: justify;
+    width: 80%;
+    font-size: 1.2em;
+    max-width: 24em;
+    margin: 1em auto;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+
+}
+#porto{
+    width: 100%;
+    padding: 2em 0;
+    
+}
+.myporto, .hubungi{
+    text-align: center;
+    text-decoration: underline;
+}
+.portofo{
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-bottom: 2em;
+ 
+}
+hr{
+    max-width: 500px;
+    margin: 0 auto;
+}
+#hubungi{
+    width: 85%;
+}
+.contact-us, .info{
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+.info{
+    text-align: center;
+}
+
+.input{
+    width: 85%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+.input>label{
+    display: block;
+    font-size: 1.5em;
+}
+
+.send{
+    text-align: center;
+    width: 100%; 
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 1em;
+    margin: 1em 0;
+    padding: 0.5em 0;
+}
+.input > input, .input> textarea {
+    width: 100%;
+    margin: .5em 0;
+    font-size: 1em;
+}
+
+.icon-img{
+    width: 50px;
+    vertical-align: middle;
+}
+.con{
+    margin: 2em;
+    vertical-align: middle;
+    margin-bottom: 2em;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 2.5em;
+    padding: 1.5em 0;
+}
+.lanjut{
+    display: none;
+}
+@media only screen and (max-width :600px) {
+    .desktop{
+        display: none;
+    }
+    .pengalaman, .skill {
+        width: 100%;
+        vertical-align: top;
+    }
+    hr{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .contact-us,.info{
+        width: 100%;
+    }
+    .lanjut{
+        display: block;
+    }
+    .con{
+        display: inline-block;
+    }
+    .contact-desktop{
+        display: none;
+    }
+    
+    
+}
